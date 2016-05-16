@@ -1,50 +1,122 @@
 <!DOSCTYPE html>
 <html>
+    <link rel="shortcut icon" href="imagenes/18541530.ico" type="image/png" /&gt>
     <head>
     <title>Registrar Usuario</title>
+    <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        
     </head>
-    <body>
-        <form id="formulario" action="" method="post">
-            <fieldset>
-            <legend>Registro</legend>
-                <table cellspacing="1" cellpadding="3" border="0">
-                    <tbody>
-                         <tr align="center">
-                            <td colspan="2"> <h1>Registrar Usuario</h1> </td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Nombres y apellidos:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Cedula de ciudadania:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Correo Electronico:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Teleono o celular:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Direccion:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr>
-                        <td width="45%" align="right"> Tipo de acondicionamiento fisico:</td>
-                        <td><input type="text" name="username" size="25" maxlength="100" /></td>
-                        </tr>
-                        <tr align="center">
-                        <td colspan="2">
-                        <input type="submit" class="mainoption" name="Crear Usuario" value="Crear usuario" />
-                        <input type="button" class="mainoption" name="Cancelar" value="Cancelar" />
-                        </td>
-                        </tr>
-                    </tbody>
-                </table>    
-            </fieldset>
-        </form>
+    <body BACKGROUND="imagenes/1CF.jpg">
+          
+          </br></br><div class="container">
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+                            <center><h1>Ciclo Aventura</h1></center>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="..." method="post" role="form" style="display: block;">
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Nombres" value="">
+									</div>
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Apellidos" value="">
+									</div>
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Cedula de ciudadania" value="">
+									</div>
+                                     <div class="form-group">
+                                        <p class="col-xs-3">Fecha Naciminto:</p>
+                                        <div class="col-xs-3">
+                                            <select class="form-control">
+                                                <option>Dia</option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="form-control">
+                                                <option>Mes</option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="form-control">
+                                                <option>Año</option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                                <option>2013</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Direccion" value="">
+								    </div>
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Telefono o Movil" value="">
+									</div>
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Correo Electronico" value="">
+									</div>
+                                    <div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Tipo de Acondicionamiento Fisico" value="">
+									</div>
+                                    
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember">Acepta terminos y condiciones</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+                                                <center><a href="#modal1" class="btn btn-primary" data-toggle="modal">Crear Cuenta</a></center>
+                                                <div class="modal fade" id="modal1">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <!-- header de la ventana -->
+                                                            <div class="modal-header">
+                                                                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                                <h3 class="modal-title">Guardado Exitoso</h3>
+                                                            </div>
+                                                            
+                                                            <!-- Contenido de la ventana-->
+                                                            <div class="modal-body">
+                                                                <p>Su informacion ha sido exitosamente guardada</p>
+                                                            </div>
+                                                            
+                                                            <!-- Footer de la ventana -->
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Editar</button>
+                                                                <a class="btn btn-primary" href="CrearUsuario.html" role="button">Continuar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+											</div>  
+									   </div>
+           				            </div>    
+                             </form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     </body>
 </html>

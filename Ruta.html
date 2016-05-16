@@ -1,18 +1,221 @@
 <!DOSCTYPE html>
 <html>
+    <link rel="shortcut icon" href="imagenes/18541530.ico" type="image/png" /&gt>
     <head>
+        <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link type="text/css" href="css/ciclo.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
         <title>Rutas</title>
+        
     </head>
     <body>
-        <fieldset>
-            <legend>Ruta</legend>
-                <table cellspacing="1" cellpadding="3" border="0">
-                     <tbody>
-                         <tr align="center">
-                            <td colspan="2"> <h1>Rutas</h1> </td>
-                        </tr>      
-            </table>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.2453045235015!2d-75.52711658568593!3d5.063942839811843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e476ffbd00c43f7%3A0x5f608ef921687e88!2sPlaza+de+Toros!5e0!3m2!1ses!2sit!4v1462071709154" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </fieldset>
+        <!-- Encabezado -->
+        <h1><img src="imagenes/asd.jpg">Ciclo Aventura</img></h1>
+        
+        <!-- Barra de Menu -->
+       <ul class="nav nav-tabs">
+            <li role="presentation"><a href="index.html">Inicio</a></li>
+            <li role="presentation" class="active"><a href="Ruta.html">Ruta</a></li>
+            <li role="presentation"><a href="Usuario.html">Usuario</a></li>
+            <li role="presentation"><a href="Store.html">Store</a></li>
+            <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conocenos<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="QuienesSomos.html">Quienes Somos</a></li>
+                <li><a href="Contactanos.html">Contactos</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+            </ul>
+            </li>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </form>
+            <div class="container-fluid">  
+           <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"> <a href="Login.html">Iniciar Sesion</a></li>
+                <li role="presentation"> <a href="Registro.html">Registrarse</a></li>
+            </ul>
+            </div>
+        </ul>
+    
+    <!---------->        
+    <!-- Mapa -->
+    <!---------->   
+    </br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <center><h3>Rutas</h3></center>
+                    <img <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15896.875719480042!2d-75.512816!3d5.068232!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bfe737fb396bbbc!2sParque+Caldas+Centro+Comercial!5e0!3m2!1ses!2ses!4v1463356149051" width="344" height="310" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    
+                    <div class="modal-body">
+                        <center><a class="btn btn-primary" href="RegistrarRuta.html" role="button">Registrar</a></center>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-8">
+                  <h3>Videos Recorriendo Rutas</h3>
+                  <p>En esta tabla estan contenidos varios videos donde las personas practican el ciclismo</p>            
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>Numero</th>
+                        <th>Nombre</th>
+                        <th>Tipo Ruta</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>01</td>
+                        <td><a href="https://www.youtube.com/watch?v=fSOyvBX3lbY">Downhill "La Pinera"</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>02</td>
+                        <td><a href="https://www.youtube.com/watch?v=YZJfM-3ULPs">Pista de downhill la Autonoma Manizales</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>03</td>
+                        <td><a href="https://www.youtube.com/watch?v=vG6D9_hAMCQ">PISTA COLIBRÍ - PISTA INFERNAL ANTIGUO CAMINO ARRIERO</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>04</td>
+                        <td><a href="https://www.youtube.com/watch?v=PxYK0kFIgGA">Downhill Bosque Popular</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>05</td>
+                        <td><a href="https://www.youtube.com/watch?v=-MtIsERgkJY">Downhill Race Manizales</a></td>
+                        <td>Ciclo_Urbana</td>
+                      </tr>
+                      <tr>
+                        <td>06</td>
+                        <td><a href="https://www.youtube.com/watch?v=48_RZrB1SFY">7 Rios</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>07</td>
+                        <td><a href="https://www.youtube.com/watch?v=IaRzwBj9Nws">Caminos de Bisoño</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                      <tr>
+                        <td>08</td>
+                        <td><a href="https://www.youtube.com/watch?v=VDSG-N5CQxM">Descenso Alto del Guamo - El Aguila</a></td>
+                        <td>Ciclo_Montañismo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            
+        </div>
+    </div>
+
+    <!-------------------> 
+    <!-- Pie de pagina -->
+    <!-------------------> 
+    </br>
+        <footer class="pie">
+            <div class="container">
+                <div class="row">
+                        
+                    <!-----------------------> 
+                    <!-- Seccion Preguntas -->
+                    <!-----------------------> 
+                    <div class="col-sm-4">
+                        <form class="form-horizontal">
+                            <h3>Deseas hacer una pregunta, escribenos:</h5>
+                             <div class="form-group">
+                                 <label for="inputName" class="control-label col-xs-3">Nombre:</label>
+                                 <div class="col-xs-9">
+                                     <input type="name" class="form-control" placeholder="Nombre">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                 <label for="inputEmail" class="control-label col-xs-3">Email:</label>
+                                 <div class="col-xs-9">
+                                     <input type="email" class="form-control" placeholder="Email">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                <label class="control-label col-xs-3">Preguntas:</label>
+                                <div class="col-xs-9">
+                                    <textarea rows="3" class="form-control" placeholder="Preguntas"></textarea>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                 <div class="col-xs-offset-3 col-xs-10">
+                                    <a href="#modal1" class="btn btn-primary" data-toggle="modal">Enviar</a>
+                                        <div class="modal fade" id="modal1">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <!--------------------------> 
+                                                    <!-- header de la ventana -->
+                                                    <!--------------------------> 
+                                                    <div class="modal-header">
+                                                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                        <h3 class="modal-title">Envio exitoso</h3>
+                                                    </div>
+                                                    
+                                                    <!----------------------------> 
+                                                    <!-- Contenido de la ventana-->
+                                                    <!----------------------------> 
+                                                    <div class="modal-body">
+                                                        <p>Su pregunta a sido enviada, dentro de muy poco recibira un correo con la respuesta a su inquietud. </br>Gracias por escribirnos...</p>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Selecione editar para realizar cambios, o seleccione continuar para seguir disfrutando de nuestros servicios.</p>
+                                                    </div>
+                                            
+                                                    <!--------------------------> 
+                                                    <!-- Footer de la ventana -->
+                                                    <!--------------------------> 
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Editar</button>
+                                                        <a class="btn btn-primary" href="index.html" role="button">Continuar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                 
+                                    </div>
+                             </div>
+                        </form> 
+                </div>
+                
+                <!-------------------------> 
+                <!-- Seccion Siguenos en:-->
+                <!------------------------->
+                <div class="col-sm-4">
+                        <h3>Siguenos en:</h3>
+                        </br>
+                    <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
+            </div>
+
+                <!--------------------------> 
+                <!-- Derechos Reservados. -->
+                <!-------------------------->
+                <hr>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="span4">
+                            <p class="muted pull-right">Copyright &copy; 2016 Todos los derechos reservados.</p>
+                            <p>Johan Sebastian Bentancur Villegas, Jhoan Esteban Gallon Osorio</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+        
     </body>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </html>

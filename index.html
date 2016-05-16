@@ -1,48 +1,291 @@
-<!DOSCTYPE html>
+<!DOCTYPE>
 <html>
+    <link rel="shortcut icon" href="imagenes/18541530.ico" type="image/png" /&gt>
     <head>
+        <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link type="text/css" href="css/ciclo.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
         <title>Ciclo Aventura</title>
-        
-<style type="text/css">
-#navegador ul{
-   list-style-type: none;
-   text-align: 0;
-}
-#navegador li{
-   display: inline;
-   text-align: center;
-   margin: 0 10px 0 0;
-}
-#navegador li a {
-   padding: 2px 7px 2px 7px;
-   color: #666;
-   background-color: #eeeeee;
-   border: 1px solid #ccc;
-   text-decoration: none;
-}
-#navegador li a:hover{
-   background-color: #333333;
-   color: #ffffff;
-}
-   </style>
-</head>
     </head>
+    
     <body>
+        <!----------------> 
         <!-- Encabezado -->
-        <h1>Ciclo Aventura</h1>
+        <!----------------> 
+        <h1><img src="imagenes/asd.jpg">Ciclo Aventura</img></h1>
+    
+        <!-------------------> 
+        <!-- Barra de Menu -->
+        <!-------------------> 
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="Ruta.html">Ruta</a></li>
+            <li role="presentation"><a href="Usuario.html">Usuario</a></li>
+            <li role="presentation"><a href="Store.html">Store</a></li>
+            <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conocenos<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="QuienesSomos.html">Quienes Somos</a></li>
+                <li><a href="Contactanos.html">Contactos</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+            </ul>
+            </li>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </form>
+            <div class="container-fluid">  
+           <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"> <a href="Login.html">Iniciar Sesion</a></li>
+                <li role="presentation"> <a href="Registro.html">Registrarse</a></li>
+            </ul>
+            </div>
+        </ul>
+    
+    <!--------------> 
+    <!-- Carrusel -->
+    <!-------------->
+    <div class="container">
+        <div class="row">
+            <div id="myCarousel" class="carousel  slide">
+              <!-- Dot Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Items -->
+              <div class="carousel-inner">
+                <div class="active item">  <img src="imagenes/1.jpg" class="img-responsive"></div>
+                <div class="item">  <img src="imagenes/2.jpg" class="img-responsive"></div>
+                <div class="item">  <img src="imagenes/3.jpg" class="img-responsive"></div>
+              </div>
+              <!-- Navigation -->
+               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!----------------------> 
+    <!-- Jumbotron Header -->
+    <!----------------------> 
+    <div class="container">
+        <hr>
+        <header class="jumbotron hero-spacer">
+            <h1>Bienvenidos Ciclo-Aventureros!</h1>
+            <h4>Ciclo aventura es una aplicación inteligente para las personas que practican ciclismo en Colombia. Contamos con una plataforma con la experiencia y el conocimiento de satisfacer la necesidad de nuestros usuarios.</h4>
+            
+            <p><a href="QuienesSomos.html" class="btn btn-primary  btn-large" role="button">Continuar leyendo</a></p>
+            </p>
+        </header>
+    </div>
+    
+    <!-------------------> 
+    <!-- Page Features -->
+    <!-------------------> 
+    <div class="container">
+        <hr>
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Tiendas Principales</h3>
+            </div>
+        </div>
         
-        <div id="navegador">
-<ul>
-<li><a href="Loggin.html">Usuario</a></li>
-<li><a href="Ruta.html">Rutas</a></li>
-<li><a href="#">Store</a></li>
-<li><a href="#">Conocenos</a></li>
-<li><a href="#">Ruteros</a></li>
-
-</ul>
-</div>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.2453045235015!2d-75.52711658568593!3d5.063942839811843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e476ffbd00c43f7%3A0x5f608ef921687e88!2sPlaza+de+Toros!5e0!3m2!1ses!2sit!4v1462071709154" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-3">
+            <div class="thumbnail">
+              <img src="imagenes/Umbro.png" alt="">
+              <div class="caption">
+                <h3>Umbro</h3>
+                  <p>Estamos comprometidos a ser la mejor cadena de tiendas de productos atléticos y de moda deportiva, excediendo las expectativas de nuestros clientes, a través de la innovación y el trabajo en equipo de un personal entusiasta.</p>
+                  <p><center><a href="http://www.umbro.com/es-co/" class="btn btn-default" role="button">Ir</a></center></p>
+              </div>
+            </div>
+          </div>
+            
+            <div class="col-sm-4 col-md-3">
+            <div class="thumbnail">
+              <img src="imagenes/adidas.png" alt="">
+              <div class="caption">
+                <h3>Adidas</h3>
+                  <p>Adidas es una compañía multinacional fabricante de calzado, ropa deportiva y otros productos relacionados con el deporte y la moda (bolsos, camisas, relojes, lentes, etc.). Su sede principal se encuentra en Herzogenaurach, Alemania.</p>
+                  <p><center><a href="http://www.adidas.co" class="btn btn-default" role="button">Ir</a></center></p>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col-sm-4 col-md-3">
+            <div class="thumbnail">
+              <img src="imagenes/Fitness.jpg" alt="">
+              <div class="caption">
+                <h3>My store Fitness</h3>
+                  <p>My Store Fitness nace con la idea de ofrecer en un mismo lugar todos los accesorios deportivos y ropa deportiva para practicar tu deporte favorito. Ofrecemos productos de la mejor calidad, las mejores marcas y diseños con despachos a nivel nacional a través de nuestro aliado en transporte Coordinadora.</p>
+                  <p><center><a href="http://www.mystorefitness.com/index.php/implementos-deportivos/fitness" class="btn btn-default" role="button">Ir</a></center></p>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col-sm-4 col-md-3">
+            <div class="thumbnail">
+              <img src="imagenes/deportescolombia.jpg" alt="">
+              <div class="caption">
+                <h3>Depostes Colombia</h3>
+                  <p>Para Deportes Colombia lo más importante son sus clientes, nuestra mayor satisfacción es brindarle las mejores opciones para la escogencia de sus artículos deportivos, es por esto quizás la razón por la cual, Deportes Colombia se ha mantenido como una de las mejores tiendas del pais.</p>
+                  <p><center><a href="http://www.deportes-colombia.com/web/" class="btn btn-default" role="button">Ir</a></center></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+    <!------------------> 
+    <!-- Videos Rutas -->
+    <!------------------> 
+    <div class="container">
+        <hr>
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Videos Rutas</h3>
+            </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <center><h3>Downhill "La Pinera</h3></center>
+                <img <p><iframe width="340" height="310" src="https://www.youtube.com/embed/fSOyvBX3lbY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <center><h3>Downhill Race Manizales</h3></center>
+                <img <p><iframe width="340" height="310" src="https://www.youtube.com/embed/-MtIsERgkJY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <center><h3>Caminos de Bisoño</h3></center>
+                <img <p><iframe width="340" height="310" src="https://www.youtube.com/embed/IaRzwBj9Nws" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div> 
+    </div>
+    
+    
+    
+    
+    <!-------------------> 
+    <!-- Pie de pagina -->
+    <!-------------------> 
+    </br>
+        <footer class="pie">
+            <div class="container">
+                <div class="row">
+                        
+                    <!-----------------------> 
+                    <!-- Seccion Preguntas -->
+                    <!-----------------------> 
+                    <div class="col-sm-4">
+                        <form class="form-horizontal">
+                            <h3>Deseas hacer una pregunta, escribenos:</h5>
+                             <div class="form-group">
+                                 <label for="inputName" class="control-label col-xs-3">Nombre:</label>
+                                 <div class="col-xs-9">
+                                     <input type="name" class="form-control" placeholder="Nombre">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                 <label for="inputEmail" class="control-label col-xs-3">Email:</label>
+                                 <div class="col-xs-9">
+                                     <input type="email" class="form-control" placeholder="Email">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                <label class="control-label col-xs-3">Preguntas:</label>
+                                <div class="col-xs-9">
+                                    <textarea rows="3" class="form-control" placeholder="Preguntas"></textarea>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                 <div class="col-xs-offset-3 col-xs-10">
+                                    <a href="#modal1" class="btn btn-primary" data-toggle="modal">Enviar</a>
+                                        <div class="modal fade" id="modal1">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <!--------------------------> 
+                                                    <!-- header de la ventana -->
+                                                    <!--------------------------> 
+                                                    <div class="modal-header">
+                                                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                        <h3 class="modal-title">Envio exitoso</h3>
+                                                    </div>
+                                                    
+                                                    <!----------------------------> 
+                                                    <!-- Contenido de la ventana-->
+                                                    <!----------------------------> 
+                                                    <div class="modal-body">
+                                                        <p>Su pregunta a sido enviada, dentro de muy poco recibira un correo con la respuesta a su inquietud. </br>Gracias por escribirnos...</p>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Selecione editar para realizar cambios, o seleccione continuar para seguir disfrutando de nuestros servicios.</p>
+                                                    </div>
+                                            
+                                                    <!--------------------------> 
+                                                    <!-- Footer de la ventana -->
+                                                    <!--------------------------> 
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Editar</button>
+                                                        <a class="btn btn-primary" href="index.html" role="button">Continuar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                 
+                                    </div>
+                             </div>
+                        </form> 
+                </div>
+                
+                <!-------------------------> 
+                <!-- Seccion Siguenos en:-->
+                <!------------------------->
+                <div class="col-sm-4">
+                        <h3>Siguenos en:</h3>
+                        </br>
+                    <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href="#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
+            </div>
+
+                <!--------------------------> 
+                <!-- Derechos Reservados. -->
+                <!-------------------------->
+                <hr>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="span4">
+                            <p class="muted pull-right">Copyright &copy; 2016 Todos los derechos reservados.</p>
+                            <p>Johan Sebastian Bentancur Villegas, Jhoan Esteban Gallon Osorio</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </footer> 
+    
     </body>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </html>
